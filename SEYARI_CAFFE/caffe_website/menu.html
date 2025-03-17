@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Syefa Seri Yasrif Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Syefa Seri Yasrif Café</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section Menu -->
+    <section class="container">
+        <h2>Menu Kami</h2>
+        <div class="menu-options">
+            <button onclick="showMenu('cake')">Cake</button>
+            <button onclick="showMenu('coffee')">Coffee</button>
+        </div>
+
+        <!-- Daftar Menu -->
+        <div id="menu-list" class="menu-list">
+            <!-- Menu akan muncul di sini secara dinamis -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2025 Syefa Seri Yasrif Café - All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+</body>
+</html>

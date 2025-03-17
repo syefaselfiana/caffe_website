@@ -1,0 +1,232 @@
+/* ========== IMPORT GOOGLE FONT ========== */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap');
+
+/* ========== GENERAL STYLES ========== */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f2;
+    color: #5a3e36;
+}
+
+/* ========== NAVBAR ========== */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #5a3e36;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f1c40f;
+}
+
+/* ========== HERO SECTION ========== */
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: url("../assets/coffee-bg.jpg") no-repeat center center/cover;
+    color: #5a3e36;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 20px;
+    background: #f1c40f;
+    color: #5a3e36;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e67e22;
+    color: white;
+}
+
+/* ========== MENU STYLING ========== */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container h2 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #5a3e36;
+    margin-bottom: 20px;
+}
+
+.menu-options {
+    margin-bottom: 20px;
+}
+
+.menu-options button {
+    padding: 12px 20px;
+    border: none;
+    background: #5a3e36;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.menu-options button:hover {
+    background: #f1c40f;
+    color: #5a3e36;
+}
+
+#menu-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.menu-item p {
+    color: #e67e22;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-item button {
+    padding: 10px 15px;
+    border: none;
+    background: #f1c40f;
+    color: #5a3e36;
+    font-size: 14px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu-item button:hover {
+    background: #e67e22;
+    color: white;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}
+
+/* ========== ORDER STYLING ========== */
+.order-summary {
+    margin-top: 40px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.order-summary h2 {
+    font-family: 'Playfair Display', serif;
+    color: #5a3e36;
+}
+
+.order-summary p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #7f8c8d;
+}
+
+.order-btn {
+    padding: 12px 25px;
+    background: #5a3e36;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background: #e67e22;
+}
+
+/* ========== FOOTER ========== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #5a3e36;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer p {
+    font-size: 14px;
+}

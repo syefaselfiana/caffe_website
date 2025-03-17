@@ -1,0 +1,74 @@
+/* ========== MENU STYLING ========== */
+.container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.container h2 {
+    font-size: 32px;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    color: #5a3e36;
+    margin-bottom: 20px;
+}
+
+/* Tombol Pilihan Menu */
+.menu-options {
+    margin-bottom: 20px;
+}
+
+.menu-options button {
+    padding: 12px 20px;
+    border: none;
+    background: #5a3e36;
+    color: white;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 5px;
+}
+
+.menu-options button:hover {
+    background: #f1c40f;
+    color: #5a3e36;
+}
+
+/* Tampilan Daftar Menu */
+#menu-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.menu-item {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.menu-item img {
+    width: 100%;
+    height: 180px;
+    border-radius: 10px;
+}
+
+.menu-item h3 {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.menu-item p {
+    color: #e67e22;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,24 @@
+/* Untuk layar kecil (HP) */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .map-container iframe {
+        height: 250px;
+    }
+}

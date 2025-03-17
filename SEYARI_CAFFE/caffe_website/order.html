@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order | Seyari Café</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Seyari Café</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="container order">
+        <h2>Pesan Sekarang</h2>
+
+        <div class="menu-options">
+            <button onclick="showMenu('coffee', 'order-menu')">Coffee ☕</button>
+            <button onclick="showMenu('cake', 'order-menu')">Cake 🍰</button>
+        </div>
+
+        <div id="order-menu">
+            <!-- Daftar menu akan muncul di sini -->
+        </div>
+
+        <div class="order-summary">
+            <h3>Pesanan Anda</h3>
+            <ul id="cart-list"></ul>
+            <button onclick="confirmOrder()">Konfirmasi Pesanan</button>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>© 2025 Seyari Café</p>
+    </footer>
+
+</body>
+</html>
